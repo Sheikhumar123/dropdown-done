@@ -1,0 +1,49 @@
+.title {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.img {
+  height: 260px;
+  width: 100%;
+}
+
+.phase1 {
+  box-shadow: 1px 2px 4px green;
+  border: 1px solid green;
+  background: rgb(99, 186, 81);
+  border-radius: 20px 20px 0px 0px;
+  height: 530px;
+  cursor: pointer;
+}
+.phase1 svg {
+  border-radius: 20px 20px 0px 0px;
+}
+.years {
+  color: black;
+}
+.phase1 .content-text {
+  display: flex;
+  font-size: 13px;
+}
+
+.phase1 .fa-check-circle {
+  background-color: #a85c32;
+  border-radius: 50%;
+  color: white;
+}
+
+.phase-heading {
+  font-weight: bolder;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.phase1 .margin-text {
+  margin-left: 10px;
+}
+@media screen and (max-width: 480px) {
+  h2 {
+    font-size: 30px;
+  }
+}
