@@ -173,11 +173,57 @@ nav .icon-burger .line {
 
 }
 @media screen and (max-width: 995px) {
-  .active{
-    position: relative;
+  .nav__submenu {
+    font-weight: 300;
+    text-transform: none;
     display: block;
-    z-index: 1;
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  
+    position: relative;
+    width: 50px;
+    
   }
+
+}
+
+.nav__submenu {
+  display: none;
+  margin-top: 7px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.nav__menu-item:hover .nav__submenu{
+  
+    display: block;
+  
+}
+.nav__menu-item {
+  display: inline-block;
+position: relative;
+}
+    .nav__submenu {
+      display: block;
+    }
+  
+
+    
+.nav__submenu {
+  font-weight: 300;
+  text-transform: none;
+  display: none;
+  position: absolute;
+  width: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 0px !important;
+}
+    
+.nav__submenu-item:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.down {
+  transform: rotate(45deg);
+}
+.arrow {
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
 }
